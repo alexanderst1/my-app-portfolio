@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="@color/main_activity_bg_color">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/main_activity_title"
+
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/main_activity_title_color" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_activity_btn_spotify_app"
+        android:id="@+id/btn_spotify_app"
+        android:layout_marginTop="@dimen/main_activity_vertical_margin_after_title"
+        android:background="@color/regular_app_btn_bg_color"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:textColor="@color/regular_app_btn_text_color"
+        android:onClick="showToast"
+        android:tag="@string/main_activity_btn_spotify_app_toast"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_activity_btn_scores_app"
+        android:id="@+id/btn_scores_app"
+        android:background="@color/regular_app_btn_bg_color"
+        android:layout_marginTop="@dimen/main_activity_vertical_margin_buttons"
+        android:layout_below="@+id/btn_spotify_app"
+        android:layout_alignRight="@+id/btn_spotify_app"
+        android:layout_alignEnd="@+id/btn_spotify_app"
+        android:layout_alignLeft="@+id/btn_spotify_app"
+        android:layout_alignStart="@+id/btn_spotify_app"
+        android:textColor="@color/regular_app_btn_text_color"
+        android:tag="@string/main_activity_btn_scores_app_toast"
+        android:onClick="showToast" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_activity_btn_library_app"
+        android:id="@+id/btn_library_app"
+        android:background="@color/regular_app_btn_bg_color"
+        android:layout_marginTop="@dimen/main_activity_vertical_margin_buttons"
+        android:layout_below="@+id/btn_scores_app"
+        android:layout_alignRight="@+id/btn_scores_app"
+        android:layout_alignEnd="@+id/btn_scores_app"
+        android:layout_alignLeft="@+id/btn_scores_app"
+        android:layout_alignStart="@+id/btn_scores_app"
+        android:textColor="@color/regular_app_btn_text_color"
+        android:tag="@string/main_activity_btn_library_app_toast"
+        android:onClick="showToast" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_activity_btn_buildit_app"
+        android:id="@+id/btn_buildit_app"
+        android:background="@color/regular_app_btn_bg_color"
+        android:layout_below="@+id/btn_library_app"
+        android:layout_marginTop="@dimen/main_activity_vertical_margin_buttons"
+        android:layout_alignLeft="@+id/btn_library_app"
+        android:layout_alignStart="@+id/btn_library_app"
+        android:layout_alignRight="@+id/btn_library_app"
+        android:layout_alignEnd="@+id/btn_library_app"
+        android:textColor="@color/regular_app_btn_text_color"
+        android:tag="@string/main_activity_btn_buildit_app_toast"
+        android:onClick="showToast" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_activity_btn_xyzreader_app"
+        android:id="@+id/btn_xyzreader_app"
+        android:background="@color/regular_app_btn_bg_color"
+        android:layout_below="@+id/btn_buildit_app"
+        android:layout_marginTop="@dimen/main_activity_vertical_margin_buttons"
+        android:layout_alignLeft="@+id/btn_buildit_app"
+        android:layout_alignStart="@+id/btn_buildit_app"
+        android:layout_alignRight="@+id/btn_buildit_app"
+        android:layout_alignEnd="@+id/btn_buildit_app"
+        android:textColor="@color/regular_app_btn_text_color"
+        android:tag="@string/main_activity_btn_xyzreader_app_toast"
+        android:onClick="showToast" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_activity_btn_myown_app"
+        android:id="@+id/btn_myown_app"
+        android:background="@color/myown_app_btn_bg_color"
+        android:layout_below="@+id/btn_xyzreader_app"
+        android:layout_alignLeft="@+id/btn_xyzreader_app"
+        android:layout_alignStart="@+id/btn_xyzreader_app"
+        android:layout_marginTop="@dimen/main_activity_vertical_margin_buttons"
+        android:layout_alignRight="@+id/btn_xyzreader_app"
+        android:layout_alignEnd="@+id/btn_xyzreader_app"
+        android:textColor="@color/myown_app_btn_text_color"
+        android:tag="@string/main_activity_btn_myown_app_toast"
+        android:onClick="showToast" />
+
+
+</RelativeLayout>

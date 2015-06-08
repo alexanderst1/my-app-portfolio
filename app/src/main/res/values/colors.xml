@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="regular_app_btn_bg_color">#F08C35</color>
+    <color name="regular_app_btn_text_color">#000206</color>
+    <color name="myown_app_btn_bg_color">#CD0E3E</color>
+    <color name="myown_app_btn_text_color">#FFFFFF</color>
+    <color name="main_activity_bg_color">#DFEAF1</color>
+    <color name="main_activity_title_color">#22435C</color>
+</resources>
